@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&family=Signika:wght@500&display=swap');
+
+:root {
+    --znx_szef: rgb(0, 156, 228);
+    --znx_black: rgb(0, 0, 0);
+    --znx_white: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    user-select: none;
+    margin: 0;
+    background-color: var(--znx_szef);
+    color: var(--znx_white);
+}
+
+.znx_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: znx_fade_and_scale 2s ease-in-out infinite;
+}
+
+.znx_loading_text {
+    position: relative;
+    text-align: center;
+    top: 45%;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.znx_loading_discord {
+    position: relative;
+    text-align: center;
+    top: 45%;
+    font-weight: 700;
+    font-size: 20px; 
+}
+
+span {
+    font-weight: 200;
+}
+
+@keyframes znx_fade_and_scale {
+    0%, 100% {
+        opacity: 0.9;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.01);
+    }
+}
