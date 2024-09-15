@@ -1,4 +1,4 @@
-fx_version 'cerulean' game 'common' lua54 'yes' loadscreen_cursor 'yes' loadscreen_manual_shutdown 'yes'  
+fx_version 'cerulean' game 'common' loadscreen_cursor 'yes' loadscreen_manual_shutdown 'yes'  
 
 author 'zenix.77'
 
