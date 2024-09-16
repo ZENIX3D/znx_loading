@@ -38,10 +38,6 @@ body {
     font-size: 20px; 
 }
 
-span {
-    font-weight: 200;
-}
-
 @keyframes znx_fade_and_scale {
     0%, 100% {
         opacity: 0.9;
