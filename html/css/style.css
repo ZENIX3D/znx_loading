@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&family=Signika:wght@500&display=swap');
 
 :root {
-    --znx_szef: rgb(0, 156, 228);
+    --znx_szef: rgb(134, 217, 255);
     --znx_black: rgb(0, 0, 0);
     --znx_white: rgb(255, 255, 255);
 }
@@ -36,6 +36,15 @@ body {
     top: 45%;
     font-weight: 700;
     font-size: 20px; 
+}
+
+.znx_loading_fivem {
+    position: relative;
+    text-align: center;
+    top: 85%;
+    font-weight: 200;
+    font-size: 11px;
+    opacity: 0.4;
 }
 
 @keyframes znx_fade_and_scale {
