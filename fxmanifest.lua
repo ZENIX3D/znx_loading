@@ -1,6 +1,6 @@
 fx_version 'cerulean' game 'common' loadscreen_cursor 'yes' loadscreen_manual_shutdown 'yes'  
 
-author 'zenix.77'
+author 'zenix.77' discord 'discord.gg/zenix77mod'
 
 client_script { 'config.lua', 'client/*.lua' }
 
